@@ -1,0 +1,181 @@
+html {
+	font-size: 16px;
+}
+
+
+body {
+	background-color: black;
+	background-image: url(images/back.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+.first-p {
+	position: static;
+    text-align: center;
+	margin:0;
+}
+
+.a-colorb {
+	color: black;
+	padding-left: 25%;
+}
+
+
+h1 {
+	font-size: 20px
+}
+
+.container {
+	margin: auto;
+	max-width: 55.8rem;
+	padding-top: 6%;
+	background-color: white;
+	padding-bottom: 5%;
+}
+
+.container-padding {
+	margin: auto;
+	width: 95%;
+}
+
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+.col-6 {
+	width: 50%;
+}
+.col-12 {    
+	max-width: 80%;
+    margin: 0 auto;
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+.logo {
+	width: 60%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.header_image {
+	width: 100%;
+	height: auto;
+}
+
+
+.a-color {
+	color: #F05454;
+}
+
+
+
+.covers {
+	width: 220px;
+	display: inline-block;
+	background-color:#f1f1f1;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 20px;
+	margin: 20px;
+}
+
+.imghight {
+	height: 344px;
+}
+
+.imghight2 {
+	height: 311px;
+}
+
+
+.small-container {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	padding-top: 0%;
+	background-color: #f1f1f1;
+	margin-top: 3%;
+	text-align: center;
+}
+
+.div_who {
+	background-color: #F9E71C;
+	text-align: center;
+	padding-top: 1px;
+	margin-bottom: 17px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+
+.button-1 {
+	padding: 19px 25px;
+	border-radius: 4px;
+	background-color: #FE004C;
+	color: white;
+	border-color: #F50076;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.hr {
+	color: #EEEEEE;
+	background-color: #EEEEEE;
+}
+
+
+.socialmedia {
+	background-color: black;
+	text-align: center;
+
+}
+
+.social {
+	width: 4%;
+	margin: 10px;
+}
+
+
+.single-button {
+	text-align:center;
+}
+
+
+
+#footer{
+	display: table;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: gray;
+}
+
+.afooter {
+	color: gray;
+}
+
+
+
+
+@media only screen and (max-width: 470px) {
+
+	.top-footer {
+		font-size: 8px;
+	}
+
+	.col-6 {
+	width: 50%;
+}
+
